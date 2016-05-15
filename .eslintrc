@@ -8,6 +8,13 @@
   "plugins": [
     "react"
   ],
+  "parserOptions": {
+      "ecmaVersion": 7,
+      "sourceType": "module",
+      "ecmaFeatures": {
+          "jsx": true
+      }
+  },
   "rules": {
     "no-debugger": 0,
     "no-console": 0,

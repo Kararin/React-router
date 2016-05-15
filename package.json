@@ -35,7 +35,7 @@
     "sass-loader": "^3.2.0",
     "style-loader": "^0.13.0",
     "url-loader": "^0.5.7",
-    "webpack": "^1.12.14",
+    "webpack": "^1.13.0",
     "webpack-dev-middleware": "^1.5.1",
     "webpack-dev-server": "^1.14.1",
     "webpack-hot-middleware": "^2.10.0",
@@ -43,7 +43,11 @@
   },
   "dependencies": {
     "jquery": "^2.2.1",
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7"
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "react-router": "^2.4.0"
+  },
+  "jshintConfig": {
+    "esversion": 6
   }
 }
